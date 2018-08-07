@@ -5,6 +5,7 @@ git ls-files: arquivos que estão sendo monitorados pelo GIT
 git status: estado atual dos arquivos dentro do repositorio
 git add . : Essa função sera dara para monitorar os arquivos em atualizações, o "." podemos dizer que é a pasta por completo que eu quero monitorar. Caso queira so um arquivo, ao invez de passar o "." passa o nome do arquivo desejado.
 git commit -m: depois de "git add" essa função seria para comentar o que você mudou no codigo.
+git commit -am: Ira pegar o repositorio inteiro e fazer um "add ." e ja podendo fazer o comentario.
 git config user.name "seu nome": Aqui seria para passar o nome do autor que esta atualizando os codigos.
 git config user.email seu@email.com: Aqui é para passar o email do autor.
 git config --global user "seu nome" or git config --global user seu@email.com: Sera para passar para o computador inteiro mais caso deseja somente no repositorio atual segui o caminho sem o --global.
